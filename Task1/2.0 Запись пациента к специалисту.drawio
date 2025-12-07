@@ -1,0 +1,44 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.3">
+  <diagram name="Страница-1" id="cakeXC9AYEngR2x7Idh-">
+    <mxGraphModel dx="1584" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5xDCP-llpMa3CnIfRtif-3" edge="1" parent="1" source="CevZFUhIxMxaI1uwu_F7-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" target="5xDCP-llpMa3CnIfRtif-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5xDCP-llpMa3CnIfRtif-4" connectable="0" parent="5xDCP-llpMa3CnIfRtif-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;text-align: left;&quot;&gt;- &lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 0, 0));&quot;&gt;PII:&lt;/font&gt; Ф. И. О. пациента&amp;nbsp;&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2341" y="-71" as="geometry">
+            <mxPoint x="71" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CevZFUhIxMxaI1uwu_F7-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Administrator - Сотрудник ресепшена" vertex="1">
+          <mxGeometry height="60" width="120" x="190" y="283" as="geometry" />
+        </mxCell>
+        <mxCell id="5xDCP-llpMa3CnIfRtif-2" edge="1" parent="1" source="CevZFUhIxMxaI1uwu_F7-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="CevZFUhIxMxaI1uwu_F7-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CevZFUhIxMxaI1uwu_F7-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Patient - Пациент" vertex="1">
+          <mxGeometry height="60" width="120" x="190" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="5xDCP-llpMa3CnIfRtif-6" edge="1" parent="1" source="5xDCP-llpMa3CnIfRtif-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;" target="5xDCP-llpMa3CnIfRtif-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5xDCP-llpMa3CnIfRtif-7" connectable="0" parent="5xDCP-llpMa3CnIfRtif-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;text-align: left;&quot;&gt;- &lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 0, 0));&quot;&gt;PII:&lt;/font&gt; Ф. И. О. пациента&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;(Encrypted SMB)&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.253" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5xDCP-llpMa3CnIfRtif-1" parent="1" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;2.0 Запись пациента к специалисту&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="126" x="190" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="5xDCP-llpMa3CnIfRtif-5" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Папка &quot;Journals&quot;. Файл &quot;Journal-Doctor-FIO 1&quot;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Excel-файл(ы): журнал(ы), где регистрируют запись пациентов к одному специалисту&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;[Шифрование диска&amp;nbsp;AES-256 + RBAC]&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="179" x="171" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="uhJcP9716fMiRCuo9lef-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;font&gt;Теги:&lt;/font&gt;&lt;div&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 0, 0));&quot;&gt;&lt;font style=&quot;&quot;&gt;PII&lt;/font&gt; - ПДн&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="89" x="-19" y="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
